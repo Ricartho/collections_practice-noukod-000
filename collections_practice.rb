@@ -40,7 +40,7 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each do |val|
+  array.map do |val|
     if array[1] == val 
       val
     else
