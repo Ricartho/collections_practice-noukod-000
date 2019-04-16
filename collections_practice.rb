@@ -30,7 +30,7 @@ end
 def kesha_maker(array)
     newArray = []
     array.each do |val|
-      puts val[2]
+      
     end 
     
 end 
