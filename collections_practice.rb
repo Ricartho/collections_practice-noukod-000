@@ -38,3 +38,13 @@ end
 def sum_array(array)
   array.inject(:+)
 end 
+
+def add_s(array)
+  array.each do |val|
+    if val[1] 
+      val
+    else
+      val + "s"
+    end 
+  end 
+end 
