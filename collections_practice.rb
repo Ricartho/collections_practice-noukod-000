@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   array.select do |val|
-    if val.start_with
+    if val.start_with()
   end 
 end 
